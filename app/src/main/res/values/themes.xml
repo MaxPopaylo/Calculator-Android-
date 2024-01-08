@@ -1,0 +1,50 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="result_txt">
+        <item name="android:textSize">80sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">end</item>
+
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:autoSizeMinTextSize">12sp</item>
+        <item name="android:autoSizeMaxTextSize">120sp</item>
+        <item name="android:autoSizeStepGranularity">2sp</item>
+    </style>
+
+    <style name="button">
+        <item name="android:layout_margin">5dp</item>
+        <item name="cornerRadius">100dp</item>
+        <item name="android:gravity">center</item>
+
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:autoSizeMinTextSize">10sp</item>
+        <item name="android:autoSizeMaxTextSize">40sp</item>
+        <item name="android:autoSizeStepGranularity">2sp</item>
+    </style>
+
+    <style name="gray_btn" parent="button">
+        <item name="android:backgroundTint">@color/btn_gray</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="dark_gray_btn" parent="button">
+        <item name="android:backgroundTint">@color/btn_gray_dark</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="orange_btn" parent="button">
+        <item name="android:backgroundTint">@color/btn_orange</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="active_orange_btn" parent="button">
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/btn_orange</item>
+    </style>
+
+    <style name="Theme.Calculator" parent="Base.Theme.Calculator" />
+</resources>
